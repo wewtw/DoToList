@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>lists</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+  integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+  crossorigin="anonymous"
+/>
+
+    <!-- don't use this in production: -->
+    <script src="https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js" crossorigin></script>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js"
+    crossorigin>
+  </script>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/react-bootstrap@next/dist/react-bootstrap.min.js"
+    crossorigin>
+  </script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <h1 class="h1">Welcome to the ToDO app!
+      Add items to the list of ToDo's</h1>
+
+    <!-- we will put our teact component inside this div -->
+    <div id="root"></div>
+    
+
+    <!-- load react -->
+    <script src="https://unpkg.com/react/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- load our react component. -->
+    <script src="todo.js" defer type="text/babel"></script>        
+    <script src="form.js" defer type="text/babel"></script>    
+    <script src="index.js" defer type="text/babel"></script>
+
+  </body>
+</html>
