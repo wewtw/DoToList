@@ -19,8 +19,10 @@ code {
 .app {
   background: lightgray;
   padding: 30px;
+  margin: 2em;
   height: auto;
   width:auto;
+  word-wrap: break-word;
   align-items: center;
   text-align: center;
   display: inline-block;
