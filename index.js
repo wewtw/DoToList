@@ -21,8 +21,8 @@ function App(){
   }
   //Keys help React identify which items have changed, are added, or are removed. Keys should be given to the elements inside the array to give the elements a stable identity:
   return(
-    <div className="app"> Press Enter to add a ToDo!
-      <div className="todo-list" >
+    <div className="app"> 
+      <div className="todo-list" > Press Enter to add a ToDo!
         {todos.map((todo, i) => (
           <Todo key={i} index={i} todo={todo} remove={removeTodo}/>
         ))}
